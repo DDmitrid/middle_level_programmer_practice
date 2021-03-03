@@ -1,0 +1,10 @@
+Benchmark                                                                  Mode  Cnt    Score    Error  Units
+MsHashBenchmark.addToContaineMaxInitialCapacityWithoutGap                 thrpt   10  209.893 ±  4.308  ops/s
+MsHashBenchmark.addToContainerDefaulInitialCapacityWithGap                thrpt   10    8.796 ±  0.201  ops/s
+MsHashBenchmark.addToContainerDefaultInitialCapacityWithoutGap            thrpt   10    0.012 ±  0.001  ops/s
+PlainOldJavaHashBenchmark.addToContaineMaxInitialCapacityWithoutGap       thrpt   10  212.814 ±  5.105  ops/s
+PlainOldJavaHashBenchmark.addToContainerDefaulInitialCapacityWithGap      thrpt   10    7.013 ±  0.290  ops/s
+PlainOldJavaHashBenchmark.addToContainerDefaultInitialCapacityWithoutGap  thrpt   10    0.013 ±  0.001  ops/s
+SadHashBenchmark.addToContaineMaxInitialCapacityWithoutGap                thrpt   10  214.548 ±  3.270  ops/s
+SadHashBenchmark.addToContainerDefaulInitialCapacityWithGap               thrpt   10    7.676 ±  0.320  ops/s
+SadHashBenchmark.addToContainerDefaultInitialCapacityWithoutGap           thrpt   10    0.013 ±  0.001  ops/s
